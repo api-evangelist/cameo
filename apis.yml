@@ -1,8 +1,24 @@
 aid: cameo
 name: Cameo
-description: 'Cameo is a company surfaced as a portfolio company of gv, lightspeed-venture-partners, softbank-vision-fund
-  and added to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'Cameo is a consumer marketplace for personalized video messages from celebrities,
+  athletes, musicians, comedians, and creators. Fans book a custom shout-out by sending a
+  short script with personal details, and the talent records and delivers a bespoke video,
+  typically within seven days, for occasions like birthdays, milestones, and celebrations.
+  Cameo also runs Cameo for Business for branded talent content, sells gift cards, and offers
+  a Red Carpet Rewards loyalty program. Cameo does not publish a public developer API or
+  OpenAPI; this profile tracks the company''s public web, help, and security surface.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.cameo.com/apple-touch-icon.png
 url: https://raw.githubusercontent.com/api-evangelist/cameo/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,10 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Consumer
+- Video
+- Marketplace
+- Celebrity
+- Entertainment
+- Personalized Video
+- Creator Economy
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -27,3 +49,24 @@ maintainers:
 common:
 - type: Website
   url: https://www.cameo.com
+- type: Support
+  url: https://help.cameo.com
+- type: Blog
+  url: https://www.cameo.com/blog
+- type: TermsOfService
+  url: https://www.cameo.com/terms
+- type: PrivacyPolicy
+  url: https://www.cameo.com/privacy
+- type: SignUp
+  url: https://www.cameo.com/signup
+- type: Login
+  url: https://www.cameo.com/login
+- type: DomainSecurity
+  url: security/cameo-domain-security.yml
+- type: LLMsTxt
+  url: llms/cameo-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
