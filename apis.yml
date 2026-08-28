@@ -7,6 +7,17 @@ description: 'Cameo is a consumer marketplace for personalized video messages fr
   Cameo also runs Cameo for Business for branded talent content, sells gift cards, and offers
   a Red Carpet Rewards loyalty program. Cameo does not publish a public developer API or
   OpenAPI; this profile tracks the company''s public web, help, and security surface.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
